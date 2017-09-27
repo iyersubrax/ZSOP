@@ -2,5 +2,13 @@ FUNCTION ZFM_HUPRINT.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"----------------------------------------------------------------------
-WRITE 'HU has been printed'.
+*--------------------------------------------------------------------*
+* Changes by Subramaniam on 9/1/2017 for  CR 282
+*--------------------------------------------------------------------*
+* Begin of CR 282
+*WRITE 'HU has been printed'.
+DO 10 TIMES.
+ WRITE : / 'HU' && sy-index.
+ENDDO.
+* End of CR 282
 ENDFUNCTION.
