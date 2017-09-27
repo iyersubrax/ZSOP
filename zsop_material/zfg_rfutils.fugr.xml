@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>RF utilities for material sites</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_RFUTILSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_RFUTILS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_HUPRINT</FUNCNAME>
+     <INCLUDE>LZFG_RFUTILSU01</INCLUDE>
+     <SHORT_TEXT>To print HUs</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
